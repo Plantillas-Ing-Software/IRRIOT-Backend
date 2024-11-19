@@ -13,6 +13,7 @@ public record ThingResource(
         Long id,
         String serialNumber,
         String model,
+        String operationMode,
         Double maximumTemperatureThreshold,
         Double minimumHumidityThreshold
 ) {}

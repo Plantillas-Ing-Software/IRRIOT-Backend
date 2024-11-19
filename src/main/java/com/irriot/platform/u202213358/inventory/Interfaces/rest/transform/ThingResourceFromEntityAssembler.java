@@ -19,6 +19,7 @@ public class ThingResourceFromEntityAssembler {
                 entity.getId(),
                 entity.getSerialNumber().getValue(),
                 entity.getModel(),
+                entity.getOperationMode().name(),
                 entity.getMaximumTemperatureThreshold(),
                 entity.getMinimumHumidityThreshold()
         );
